@@ -105,6 +105,21 @@ label:hover{
   left: -20%;
 }
 
+.image-grid .img-wrap:hover button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 30%);
+  -ms-transform: translate(-10%, 10%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /* Modal styles */
 .backdrop{
   position: fixed;
